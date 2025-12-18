@@ -1,0 +1,27 @@
+{
+    "ide": {
+      "hasSeenNudge": true
+    },
+    "security": {
+      "auth": {
+        "selectedType": "oauth-personal"
+      }
+    },
+    "mcpServers": {
+      "Ferrosim_mcp": {
+        "command": "/home/vani/.local/bin/uv",
+        "env": 
+        {"PYTHONPATH": "/media/vani/ebc68877-0047-41f0-9256-3014e42ef8e1/vani/homework/mic/.venv"},
+        "args": [
+          "--directory",
+          "/media/vani/ebc68877-0047-41f0-9256-3014e42ef8e1/vani/homework/mic/ferrosim_github/FerroSim",
+          "run",
+          "mcp",
+          "run",
+          "main.py"
+        ]
+      }
+    }
+    
+  }
+  
