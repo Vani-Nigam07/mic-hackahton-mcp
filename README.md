@@ -12,7 +12,7 @@ What it can do:
      associated with a spectrum.
 
   Accepted Queries (Methods):
------ AFM --------
+  #  ----- AFM --------
    * initialize_microscope(afm microscope):
     ```Sets up the microscope. ```
    * register_data(data_source)- H5 FILES:
@@ -21,9 +21,10 @@ What it can do:
    * get_point_data(spectrum_image_index, x, y): Gets the spectrum data from a single (x, y) coordinate in a specified spectrum image.
    * get_spectrum_image(spectrum_image_index): Retrieves a full 3D spectrum image datacube.
    * get_spectrum_image_e_axis(spectrum_image_index): Returns the energy (E) axis for a given spectrum image.
------ fERROSIM-------
+  #  ----- FERROSIM-------
    * `run_ferro_simulation`: This tool takes your high-level parameters (n, alpha, beta, etc.), passes them to the Ferro2DSim class to run the entire process described above, and then returns a summary of 
      the results, including the total polarization over time and the maximum measured response.
    * `calculate_experiment_match`: This is a utility tool that allows you to compare the polarization history from your simulation with an experimental result by calculating the Root Mean Square Error 
      (RMSE), giving you a metric for how well your simulation parameters match the experiment.
+
 
